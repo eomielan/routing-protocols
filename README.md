@@ -4,13 +4,6 @@
 
 This project is a Python implementation of the link state and distance vector routing protocols. There are two separate programs: one that implements the link state protocol, and one that implements the distance vector protocol. Both programs read and use the same file format for the network’s topology as well as the same format for messages to send.
 
-The documentation for this project was generated using Doxygen and can be found by opening `doxygen/html/index.html` in a browser. If there are any issues viewing the documentation, follow these steps to generate it locally:
-
-1. Install [Doxygen](https://www.doxygen.nl/).
-2. In the command line, navigate to the doxygen directory using `cd doxygen`.
-3. Next, run `doxygen Doxyfile` to generate the documentation.
-4. The documentation can be viewed by opening the file `doxygen/html/index.html` in a browser.
-
 ## Instructions
 
 1. Run `chmod +x dvr.sh lsr.sh setup.sh` once before running the programs.
