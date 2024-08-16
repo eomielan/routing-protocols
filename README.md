@@ -47,7 +47,7 @@ This project is a Python implementation of the link state and distance vector ro
 
 5. Run `pytest` to run the tests.
     
-    **NOTE:** The tests require dos2unix to run on Linux. If you do not already have this package installed please run the following:
+    **NOTE:** The tests require dos2unix to run on Linux. If you do not already have this package installed please run:
 
     ```bash
     sudo apt-get update
