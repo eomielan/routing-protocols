@@ -28,20 +28,17 @@ jobs:
     - name: Set permissions
       run: chmod +x dvr.sh lsr.sh setup.sh
 
-    - name: Create virtual environment
-      run: |
-        python3 -m venv myenv
-        source myenv/bin/activate
-
-    - name: Install dependencies
+    - name: Install OS dependencies
       run: |
         sudo apt-get update
         sudo apt-get install dos2unix
-        python -m pip install --upgrade pip
-        ./setup.sh
 
-    - name: Run tests
+    - name: Install Python dependencies and run tests
       run: |
+        python3 -m venv myenv
+        source myenv/bin/activate
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
         pytest
         cd test/
         pytest
