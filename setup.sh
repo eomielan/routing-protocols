@@ -4,7 +4,7 @@
 if [[ "$VIRTUAL_ENV" != "" ]]; then
     echo "Virtual environment is activated."
     
-    # Install package from requirements.txt
+    # Install packages from requirements.txt
     if [[ -f "requirements.txt" ]]; then
         echo "Installing packages from requirements.txt..."
         pip install -r requirements.txt
