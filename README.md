@@ -48,11 +48,11 @@ This project is a Python implementation of the link state and distance vector ro
 
 ## Testing
 
-We used [Pytest](https://docs.pytest.org/en/8.0.x/), a Python testing framework, to test our code. These test files can be found in the `src/test` directory.
+We used [Pytest](https://docs.pytest.org/en/8.0.x/), a Python testing framework, to test our code. These test files can be found in the `test` directory.
 
 To run the test suite:
 
-1. Ensure you have Pytest installed.
+1. Complete the first three steps in the instructions to ensure Pytest is installed.
 2. In the command line, run `pytest` to start the test suite.
 
-Note that you can run the test suite from the root or `src/test` directory.
+Note that you can run the test suite from the root or `test` directory.
