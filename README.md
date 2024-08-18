@@ -6,19 +6,9 @@ This project is a Python implementation of the link state and distance vector ro
 
 ## Instructions
 
-1. Run `chmod +x dvr.sh lsr.sh setup.sh` once before running the programs.
+1. Run `chmod +x dvr.sh lsr.sh setup.sh` to make the scripts executable.
 2. Run `python3 -m venv myenv` and then `source myenv/bin/activate` to start a virtual environment.
-3. Run `./setup.sh` in the virtual environment to install dependencies.
-
-    **NOTE:** If you encounter the following error when running `./setup.sh`:
-
-    ```
-    ./setup.sh: line 2: $'\r': command not found
-    ./setup.sh: line 20: syntax error: unexpected end of file
-    ```
-
-    First run `dos2unix setup.sh` to convert the line endings in `setup.sh` to Unix-style line endings, then run `./setup.sh` again.
-
+3. Run `pip install -r requirements.txt` in the virtual environment to install dependencies.
 4. To start a simulation, run one of the following commands:
 
     #### Distance Vector Routing Protocol
@@ -47,7 +37,7 @@ This project is a Python implementation of the link state and distance vector ro
 
 5. Run `pytest` to run the tests.
     
-    **NOTE:** The tests require dos2unix to run on Linux. If you do not already have this package installed please run:
+    **NOTE:** The tests require `dos2unix` to run on Linux. If you do not already have this package installed please run:
 
     ```bash
     sudo apt-get update
