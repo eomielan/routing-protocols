@@ -55,4 +55,4 @@ To run the test suite:
 1. Ensure you have Pytest installed.
 2. In the command line, run `pytest` to start the test suite.
 
-Note that you can run the test suite from the root or `src/test` directory. The root directory rely on the bash scripts to run, while running the tests from `src/test` do not require the bash scripts.
+Note that you can run the test suite from the root or `src/test` directory.
