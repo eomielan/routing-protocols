@@ -6,7 +6,7 @@ This project is a Python implementation of the link state and distance vector ro
 
 ## Instructions
 
-1. Run `chmod +x dvr.sh lsr.sh setup.sh` to make the scripts executable.
+1. Run `chmod +x dvr.sh lsr.sh` to make the scripts executable.
 2. Run `python3 -m venv myenv` and then `source myenv/bin/activate` to start a virtual environment.
 3. Run `pip install -r requirements.txt` in the virtual environment to install dependencies.
 4. To start a simulation, run one of the following commands:

@@ -26,7 +26,7 @@ jobs:
         python-version: "3.10"
 
     - name: Set permissions
-      run: chmod +x dvr.sh lsr.sh setup.sh
+      run: chmod +x dvr.sh lsr.sh
 
     - name: Install OS dependencies
       run: |
